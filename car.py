@@ -1,7 +1,7 @@
 class Car:
     def __init__(self, engine, speed):
-        self.__engine = engine
-        self.__speed = speed
+        self.set_engine(engine)
+        self.set_speed(speed)
 
     def set_engine(self, engine):
         if type(engine) != bool:
